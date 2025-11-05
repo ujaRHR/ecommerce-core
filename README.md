@@ -13,36 +13,28 @@ A modern, scalable e-commerce REST API built with NestJS, TypeScript, and Postgr
 
 ## ✨ Features
 
-### 🔐 Authentication & Authorization
+#### Authentication & Authorization
 - JWT-based authentication
 - Role-based access control (Admin, User, Seller)
 - Secure password hashing with bcrypt
 
-### 📦 Product Management
+#### Product Management
 - Full CRUD operations
 - Category organization
 - Image support
 - Stock management
-- Redis caching for performance
-
-### 🛒 Shopping Experience
-- Real-time shopping cart
-- Order creation and tracking
-- Order history
 - Product reviews and ratings
 
-### 💳 Payment Processing
+#### Payment Processing
 - Stripe integration
 - Secure payment intents
 - Payment confirmation
 - Order status auto-update
 
-### 🚀 Performance & Security
-- Redis caching layer
-- Rate limiting
-- Input validation
-- SQL injection protection
-- CORS enabled
+#### Performance & Security
+- Redis caching + Rate limit
+- Validation + SQL/XSS protect
+- CORS
 
 ---
 
